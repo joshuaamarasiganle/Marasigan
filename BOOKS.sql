@@ -2,11 +2,11 @@ CREATE DATABASE BOOKS;
 
 USE BOOKS;
 
-
 CREATE TABLE Books (
+    BookID INT AUTO_INCREMENT PRIMARY KEY,
     Author VARCHAR(255),
     BookName VARCHAR(255),
-    PublishedYear VARCHAR(255),
+    PublishedYear INT,
     Genre VARCHAR(255),
     Publisher VARCHAR(255)
 );
