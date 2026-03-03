@@ -11,5 +11,7 @@ CREATE TABLE Books (
     Publisher VARCHAR(255)
 );
 
-INSERT INTO Books VALUES ("Millard Lirio", "Ang Talambuhay ni Millard", "2026", "Epic Poetry", "Penguin Classics");
-INSERT INTO Books VALUES ("Dostoyevsky", "White Nights", "1995", "Fiction", "Penguin Classics");
+INSERT INTO Books (Author, BookName, PublishedYear, Genre, Publisher)
+VALUES 
+("Millard Lirio", "Ang Talambuhay ni Millard", 2026, "Epic Poetry", "Penguin Classics"),
+("Fyodor Dostoevsky", "White Nights", 1995, "Fiction", "Penguin Classics");
