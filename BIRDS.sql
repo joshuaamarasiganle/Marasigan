@@ -1,0 +1,14 @@
+CREATE DATABASE BIRDS;
+
+USE BIRDS;
+
+CREATE TABLE Birds (
+    BirdType VARCHAR(255),
+    CountryOrigin VARCHAR(255),
+    CanDiveToWater BOOLEAN,
+    CanFly BOOLEAN,
+    CanRun BOOLEAN
+);
+
+INSERT INTO Birds VALUES ("Mammal", "Philippines", TRUE, TRUE, TRUE);
+INSERT INTO Birds VALUES ("Mammal", "America", TRUE, FALSE, TRUE);
