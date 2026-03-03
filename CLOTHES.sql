@@ -1,12 +1,13 @@
 CREATE DATABASE CLOTHES;
 USE CLOTHES;
 
-CREATE TABLE Clothes (
+CREATECREATE TABLE Clothes (
+    ClothesID INT AUTO_INCREMENT PRIMARY KEY,
     BrandName VARCHAR(255),
     Color VARCHAR(255),
     IsBrandNew BOOLEAN,
     IsUnisex BOOLEAN,
-    TshirtSize VARCHAR(255)
+    TshirtSize VARCHAR(50)
 );
 
 
