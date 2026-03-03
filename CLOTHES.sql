@@ -12,5 +12,7 @@ CREATE TABLE Clothes (
 
 
 
-INSERT INTO Clothes VALUES ("Mango", "Black", TRUE, TRUE, "M");
-INSERT INTO Clothes VALUES ("Penshoppe", "Black", TRUE, TRUE, "S");
+INSERT INTO Clothes (BrandName, Color, IsBrandNew, IsUnisex, TshirtSize)
+VALUES 
+("Mango", "Black", TRUE, TRUE, "M"),
+("Penshoppe", "Black", TRUE, TRUE, "S");
