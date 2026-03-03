@@ -11,5 +11,7 @@ CREATE TABLE Birds (
     CanRun BOOLEAN
 );
 
-INSERT INTO Birds VALUES ("Mammal", "Philippines", TRUE, TRUE, TRUE);
-INSERT INTO Birds VALUES ("Mammal", "America", TRUE, FALSE, TRUE);
+INSERT INTO Birds (BirdType, CountryOrigin, CanDiveToWater, CanFly, CanRun)
+VALUES 
+("Mammal", "Philippines", TRUE, TRUE, TRUE),
+("Mammal", "America", TRUE, FALSE, TRUE);
