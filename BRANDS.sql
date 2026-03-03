@@ -12,6 +12,8 @@ CREATE TABLE Brands (
     TotalSales FLOAT
 );
 
-INSERT INTO Brands VALUES ("GUcci", 400, "Millard Gucci", "1995", 19,000,00.00);
+INSERT INTO Brands (BrandName, TotalStores, Founder, StartupYear, TotalSales)
+VALUES 
+("Gucci", 400, "Millard Gucci", 1995, 19000000.00),
+("Ralph Lauren", 500, "Ralph", 1995, 19000000.00);
 
-INSERT INTO Brands VALUES ("Ralph Lauren", 500, "Ralph", "1995", 19,000,00.00);
