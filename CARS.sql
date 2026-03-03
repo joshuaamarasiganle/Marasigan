@@ -12,5 +12,7 @@ CREATE TABLE Cars (
     Color VARCHAR(255)
 );
 
-INSERT INTO Cars VALUES ("BMW", "900cc", "BY-1", "Laguna, Philippines", "White");
-INSERT INTO Cars VALUES ("AUDI", "700cc", "BX-1", "Laguna, Philippines", "Black");
+INSERT INTO Cars (Brand, HorsePower, Model, RegisteredLocation, Color)
+VALUES 
+("BMW", "900cc", "BY-1", "Laguna, Philippines", "White"),
+("AUDI", "700cc", "BX-1", "Laguna, Philippines", "Black");
