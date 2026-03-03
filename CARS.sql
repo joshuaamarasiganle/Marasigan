@@ -4,6 +4,7 @@ USE CARS;
 
 
 CREATE TABLE Cars (
+    CarID INT AUTO_INCREMENT PRIMARY KEY,
     Brand VARCHAR(255),
     HorsePower VARCHAR(255),
     Model VARCHAR(255),
