@@ -4,10 +4,11 @@ USE BRANDS;
 
 
 CREATE TABLE Brands (
+    BrandID INT AUTO_INCREMENT PRIMARY KEY,
     BrandName VARCHAR(255),
     TotalStores INT,
     Founder VARCHAR(255),
-    StartupYear VARCHAR(255),
+    StartupYear INT,
     TotalSales FLOAT
 );
 
